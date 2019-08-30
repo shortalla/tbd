@@ -11,7 +11,7 @@ const StyledProfileItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: ${rem(4)};
+  padding: ${rem(4)} ${rem(12)};
 
   &:hover {
     background-color: ${props => props.theme.primaryLv1};

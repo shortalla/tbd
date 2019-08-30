@@ -1,11 +1,11 @@
 import { rem, darken, lighten } from "polished";
 
 const defaultThemeConfig = {
-  dark: true,
+  dark: false,
   maxWidth: rem(1200),
-  base: '#343434',
-  primary: '#777799',
-  text: '#E0E1E2'
+  base: '#e4e4e4',
+  primary: '#5A8D9D',
+  text: '#202020'
 };
 
 function makeVariations(name, theme) {
